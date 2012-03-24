@@ -3,5 +3,5 @@
 # GET home page.
 ##
 
-exports.index = function(req, res)
+exports.index = (req, res) ->
   res.render('index', { title: 'Express' })
